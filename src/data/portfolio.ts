@@ -1,3 +1,7 @@
+/**
+ * MAIN FILE — Edit this file to update your entire portfolio.
+ * All text, skills, services, projects, and contact info live here.
+ */
 export const personalInfo = {
   name: 'Ritul Soni',
   title: 'iOS & Flutter Developer',
