@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface text-gray-100 antialiased;
+  }
+
+  ::selection {
+    @apply bg-accent-glow/40 text-white;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent-ios via-accent-flutter to-accent-glow bg-clip-text text-transparent;
+  }
+
+  .glass {
+    @apply border border-surface-border bg-surface-raised/60 backdrop-blur-xl;
+  }
+
+  .section-padding {
+    @apply px-6 py-20 md:px-12 lg:px-24 lg:py-28;
+  }
+}

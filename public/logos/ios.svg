@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
+  <rect width="96" height="96" rx="22" fill="url(#ios-gradient)"/>
+  <path
+    fill="white"
+    d="M57.8 28.5c-.9 1.1-2.4 1.9-3.9 1.8-.1-1.5.6-3.1 1.5-4.1.9-1.1 2.5-1.9 3.8-2-.1 1.6-.5 3.1-1.4 4.3zM60.2 32.1c-2.2-.1-4.1 1.2-5.2 1.2-1.1 0-2.8-1.2-4.6-1.2-2.4 0-4.6 1.4-5.8 3.5-2.5 4.3-.6 10.7 1.8 14.2 1.2 1.7 2.6 3.6 4.5 3.5 1.8-.1 2.5-1.2 4.6-1.2 2.1 0 2.7 1.2 4.6 1.2 1.9 0 3.1-1.7 4.3-3.4 1.3-2 1.9-3.9 1.9-4-.1 0-3.7-1.4-3.7-5.5.1-3.5 2.9-5.1 3-5.2-1.7-2.4-4.2-2.7-5.1-2.7z"
+    transform="translate(-6, 4) scale(1.05)"
+  />
+  <defs>
+    <linearGradient id="ios-gradient" x1="0" y1="0" x2="96" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#007AFF"/>
+      <stop offset="1" stop-color="#5856D6"/>
+    </linearGradient>
+  </defs>
+</svg>
